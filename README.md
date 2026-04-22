@@ -2,7 +2,7 @@
 This is a solution to the Recipe page challenge on Frontend Mentor.
 
 Demo
-https://example.com
+https://ndilisa.github.io/recipe-page/
 
 Built with
 - Semantic HTML5 markup
