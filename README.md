@@ -23,4 +23,4 @@ Technologies Used
 - Style guide and design files
 
 Author
-- Ndilisa Kula (github.com/ndilisa)
+- Ndilisa Kula (https://github.com/ndilisa)
