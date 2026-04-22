@@ -1,15 +1,15 @@
 # Recipe Page
 This is a solution to the Recipe page challenge on Frontend Mentor.
 
-#Demo
+Demo
 https://example.com
 
-#Built with
+Built with
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
 
-#What I learned
+What I learned
 - How to use local fonts with @font-face
 - Working with HSL color values
 - Creating responsive layouts with media queries
@@ -17,10 +17,10 @@ https://example.com
 - CSS selectors and specificity
 - Organizing CSS for maintainability
 
-#Technologies Used
+Technologies Used
 - MDN Web Docs - for CSS reference
 - Frontend Mentor - for the challenge and community
 - Style guide and design files
 
-#Author
+Author
 - Ndilisa Kula (github.com/ndilisa)
