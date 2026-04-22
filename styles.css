@@ -1,0 +1,130 @@
+/*Adding the font face / font family rules to the CSS file*/
+@font-face{
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Adding the font family, background color, and text color to relevant elements*/
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+}
+
+h1, h2{
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h2, .nutrition-label{
+    color: hsl(14, 45%, 36%);
+}
+
+/*Adding the font family, background color and layout in the continer*/
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*Adding space between the elements*/
+.preparation-time, .ingredients, .instructions, .nutrition{
+    margin-bottom: 2rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/*Working on unordered lists*/
+ul{
+    padding-left: 1.5rem;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+
+/*Working on ordered lists*/
+ol{
+    padding-left: 1.5rem;
+}
+
+/*Work on appropriate heading element sizes*/
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+/*Work on the prep time section*/
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.preparation-time h2{
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time, .ingredients, .instructions, .nutrition{
+  border-top: 1px solid hsl(30, 18%, 87%);
+  padding-top: 2rem;
+}
+
+/*Line heights and spacing*/
+body{
+    line-height: 1.6;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+/*The attribution class*/
+.attribution {
+  font-size: 0.875rem;
+  text-align: center;
+  color: hsl(30, 10%, 34%);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+/*Media query for larger screens*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 900px;
+    padding: 3rem;
+  }
+}
